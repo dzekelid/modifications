@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Modifications
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,6 +29,272 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-get-openapi.md
+- name: Square Connect - Removes a modifier list association from an item, meaning
+    modifier options from the list can no longer be applied to the item.
+  x-api-slug: v1location-iditemsitem-idmodifierlistsmodifier-list-id-delete
+  description: Removes a modifier list association from an item, meaning modifier
+    options from the list can no longer be applied to the item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idmodifierlistsmodifier-list-id-delete-openapi.md
+- name: Square Connect - Associates a modifier list with an item, meaning modifier
+    options from the list can be applied to the item.
+  x-api-slug: v1location-iditemsitem-idmodifierlistsmodifier-list-id-put
+  description: Associates a modifier list with an item, meaning modifier options from
+    the list can be applied to the item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Lists all of a location's modifier lists.
+  x-api-slug: v1location-idmodifierlists-get
+  description: Lists all of a location's modifier lists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlists-get-openapi.md
+- name: Square Connect - Creates an item modifier list and at least one modifier option
+    for it.
+  x-api-slug: v1location-idmodifierlists-post
+  description: Creates an item modifier list and at least one modifier option for
+    it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlists-post-openapi.md
+- name: Square Connect - Deletes an existing item modifier list and all modifier options
+    associated with it.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-delete
+  description: Deletes an existing item modifier list and all modifier options associated
+    with it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-delete-openapi.md
+- name: Square Connect - Provides the details for a single modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-get
+  description: Provides the details for a single modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-get-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-put
+  description: Modifies the details of an existing item modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Creates an item modifier option and adds it to a modifier
+    list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptions-post
+  description: Creates an item modifier option and adds it to a modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptions-post-openapi.md
+- name: Square Connect - Deletes an existing item modifier option from a modifier
+    list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-delete
+  description: Deletes an existing item modifier option from a modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-delete-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier option.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put
+  description: Modifies the details of an existing item modifier option.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put-openapi.md
+- name: Square Connect - Modifies the details of an employee role.
+  x-api-slug: v1merolesrole-id-put
+  description: Modifies the details of an employee role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1merolesrole-id-put-openapi.md
+- name: Square Connect - Modifies a timecard's details. This creates an API_EDIT event
+    for the timecard. You can view a timecard's event history with the List Timecard
+    Events endpoint.
+  x-api-slug: v1metimecardstimecard-id-put
+  description: Modifies a timecard's details. This creates an API_EDIT event for the
+    timecard. You can view a timecard's event history with the List Timecard Events
+    endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1metimecardstimecard-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-put
+  description: Modifies the details of an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idcategoriescategory-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing discount.
+  x-api-slug: v1location-iddiscountsdiscount-id-put
+  description: Modifies the details of an existing discount.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iddiscountsdiscount-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-put
+  description: Modifies the details of an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idfeesfee-id-put-openapi.md
+- name: Square Connect - Modifies the core details of an existing item.
+  x-api-slug: v1location-iditemsitem-id-put
+  description: Modifies the core details of an existing item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item variation.
+  x-api-slug: v1location-iditemsitem-idvariationsvariation-id-put
+  description: Modifies the details of an existing item variation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idvariationsvariation-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-put
+  description: Modifies the details of an existing item modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier option.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put
+  description: Modifies the details of an existing item modifier option.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put-openapi.md
+- name: Square Connect - Modifies the details of a Favorites page in Square Register.
+  x-api-slug: v1location-idpagespage-id-put
+  description: Modifies the details of a Favorites page in Square Register.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idpagespage-id-put-openapi.md
+- name: Square Connect - Modifies a cell of a Favorites page in Square Register.
+  x-api-slug: v1location-idpagespage-idcells-put
+  description: Modifies a cell of a Favorites page in Square Register.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idpagespage-idcells-put-openapi.md
 - name: Square Connect - Provides the details for a single item, including associated
     modifier lists and fees.
   x-api-slug: v1location-iditemsitem-id-get
@@ -45,6 +311,554 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-get-openapi.md
+- name: Square Connect - Removes a modifier list association from an item, meaning
+    modifier options from the list can no longer be applied to the item.
+  x-api-slug: v1location-iditemsitem-idmodifierlistsmodifier-list-id-delete
+  description: Removes a modifier list association from an item, meaning modifier
+    options from the list can no longer be applied to the item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idmodifierlistsmodifier-list-id-delete-openapi.md
+- name: Square Connect - Associates a modifier list with an item, meaning modifier
+    options from the list can be applied to the item.
+  x-api-slug: v1location-iditemsitem-idmodifierlistsmodifier-list-id-put
+  description: Associates a modifier list with an item, meaning modifier options from
+    the list can be applied to the item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Lists all of a location's modifier lists.
+  x-api-slug: v1location-idmodifierlists-get
+  description: Lists all of a location's modifier lists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlists-get-openapi.md
+- name: Square Connect - Creates an item modifier list and at least one modifier option
+    for it.
+  x-api-slug: v1location-idmodifierlists-post
+  description: Creates an item modifier list and at least one modifier option for
+    it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlists-post-openapi.md
+- name: Square Connect - Deletes an existing item modifier list and all modifier options
+    associated with it.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-delete
+  description: Deletes an existing item modifier list and all modifier options associated
+    with it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-delete-openapi.md
+- name: Square Connect - Provides the details for a single modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-get
+  description: Provides the details for a single modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-get-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-put
+  description: Modifies the details of an existing item modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Creates an item modifier option and adds it to a modifier
+    list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptions-post
+  description: Creates an item modifier option and adds it to a modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptions-post-openapi.md
+- name: Square Connect - Deletes an existing item modifier option from a modifier
+    list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-delete
+  description: Deletes an existing item modifier option from a modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-delete-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier option.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put
+  description: Modifies the details of an existing item modifier option.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put-openapi.md
+- name: Square Connect - Modifies the details of an employee role.
+  x-api-slug: v1merolesrole-id-put
+  description: Modifies the details of an employee role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1merolesrole-id-put-openapi.md
+- name: Square Connect - Modifies a timecard's details. This creates an API_EDIT event
+    for the timecard. You can view a timecard's event history with the List Timecard
+    Events endpoint.
+  x-api-slug: v1metimecardstimecard-id-put
+  description: Modifies a timecard's details. This creates an API_EDIT event for the
+    timecard. You can view a timecard's event history with the List Timecard Events
+    endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1metimecardstimecard-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-put
+  description: Modifies the details of an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idcategoriescategory-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing discount.
+  x-api-slug: v1location-iddiscountsdiscount-id-put
+  description: Modifies the details of an existing discount.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iddiscountsdiscount-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-put
+  description: Modifies the details of an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idfeesfee-id-put-openapi.md
+- name: Square Connect - Modifies the core details of an existing item.
+  x-api-slug: v1location-iditemsitem-id-put
+  description: Modifies the core details of an existing item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item variation.
+  x-api-slug: v1location-iditemsitem-idvariationsvariation-id-put
+  description: Modifies the details of an existing item variation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idvariationsvariation-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-put
+  description: Modifies the details of an existing item modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier option.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put
+  description: Modifies the details of an existing item modifier option.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put-openapi.md
+- name: Square Connect - Modifies the details of a Favorites page in Square Register.
+  x-api-slug: v1location-idpagespage-id-put
+  description: Modifies the details of a Favorites page in Square Register.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idpagespage-id-put-openapi.md
+- name: Square Connect - Modifies a cell of a Favorites page in Square Register.
+  x-api-slug: v1location-idpagespage-idcells-put
+  description: Modifies a cell of a Favorites page in Square Register.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idpagespage-idcells-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier option.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put
+  description: Modifies the details of an existing item modifier option.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put-openapi.md
+- name: Square Connect - Deletes an existing item modifier option from a modifier
+    list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-delete
+  description: Deletes an existing item modifier option from a modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-delete-openapi.md
+- name: Square Connect - Creates an item modifier option and adds it to a modifier
+    list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptions-post
+  description: Creates an item modifier option and adds it to a modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptions-post-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-put
+  description: Modifies the details of an existing item modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Provides the details for a single modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-get
+  description: Provides the details for a single modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-get-openapi.md
+- name: Square Connect - Deletes an existing item modifier list and all modifier options
+    associated with it.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-delete
+  description: Deletes an existing item modifier list and all modifier options associated
+    with it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-delete-openapi.md
+- name: Square Connect - Creates an item modifier list and at least one modifier option
+    for it.
+  x-api-slug: v1location-idmodifierlists-post
+  description: Creates an item modifier list and at least one modifier option for
+    it.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlists-post-openapi.md
+- name: Square Connect - Lists all of a location's modifier lists.
+  x-api-slug: v1location-idmodifierlists-get
+  description: Lists all of a location's modifier lists.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlists-get-openapi.md
+- name: Square Connect - Associates a modifier list with an item, meaning modifier
+    options from the list can be applied to the item.
+  x-api-slug: v1location-iditemsitem-idmodifierlistsmodifier-list-id-put
+  description: Associates a modifier list with an item, meaning modifier options from
+    the list can be applied to the item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Removes a modifier list association from an item, meaning
+    modifier options from the list can no longer be applied to the item.
+  x-api-slug: v1location-iditemsitem-idmodifierlistsmodifier-list-id-delete
+  description: Removes a modifier list association from an item, meaning modifier
+    options from the list can no longer be applied to the item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idmodifierlistsmodifier-list-id-delete-openapi.md
+- name: Square Connect - Provides the details for a single item, including associated
+    modifier lists and fees.
+  x-api-slug: v1location-iditemsitem-id-get
+  description: Provides the details for a single item, including associated modifier
+    lists and fees.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-get-openapi.md
+- name: Square Connect - Modifies a cell of a Favorites page in Square Register.
+  x-api-slug: v1location-idpagespage-idcells-put
+  description: Modifies a cell of a Favorites page in Square Register.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idpagespage-idcells-put-openapi.md
+- name: Square Connect - Modifies the details of a Favorites page in Square Register.
+  x-api-slug: v1location-idpagespage-id-put
+  description: Modifies the details of a Favorites page in Square Register.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idpagespage-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier option.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put
+  description: Modifies the details of an existing item modifier option.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-idmodifieroptionsmodifier-option-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item modifier list.
+  x-api-slug: v1location-idmodifierlistsmodifier-list-id-put
+  description: Modifies the details of an existing item modifier list.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idmodifierlistsmodifier-list-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item variation.
+  x-api-slug: v1location-iditemsitem-idvariationsvariation-id-put
+  description: Modifies the details of an existing item variation.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-idvariationsvariation-id-put-openapi.md
+- name: Square Connect - Modifies the core details of an existing item.
+  x-api-slug: v1location-iditemsitem-id-put
+  description: Modifies the core details of an existing item.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iditemsitem-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing fee (tax).
+  x-api-slug: v1location-idfeesfee-id-put
+  description: Modifies the details of an existing fee (tax).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idfeesfee-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing discount.
+  x-api-slug: v1location-iddiscountsdiscount-id-put
+  description: Modifies the details of an existing discount.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-iddiscountsdiscount-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-put
+  description: Modifies the details of an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1location-idcategoriescategory-id-put-openapi.md
+- name: Square Connect - Modifies a timecard's details. This creates an API_EDIT event
+    for the timecard. You can view a timecard's event history with the List Timecard
+    Events endpoint.
+  x-api-slug: v1metimecardstimecard-id-put
+  description: Modifies a timecard's details. This creates an API_EDIT event for the
+    timecard. You can view a timecard's event history with the List Timecard Events
+    endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1metimecardstimecard-id-put-openapi.md
+- name: Square Connect - Modifies the details of an employee role.
+  x-api-slug: v1merolesrole-id-put
+  description: Modifies the details of an employee role.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/square/v1merolesrole-id-put-openapi.md
 x-common:
 - type: x-website
   url: http://square.com

@@ -9,11 +9,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Modifications
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/shopify/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Shopify API - Modify an existing product image
+  x-api-slug: adminproducts7990943555images19489404942-json-put
+  description: Modify an existing product image.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/shopify/adminproducts7990943555images19489404942-json-put-openapi.md
+- name: Shopify API - Modify an existing product image
+  x-api-slug: adminproducts7990943555images19489404942-json-put
+  description: Modify an existing product image.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/shopify/adminproducts7990943555images19489404942-json-put-openapi.md
+- name: Shopify API - Modify an existing product image
+  x-api-slug: adminproducts7990943555images19489404942-json-put
+  description: Modify an existing product image.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/shopify/adminproducts7990943555images19489404942-json-put-openapi.md
+- name: Shopify API - Modify an existing product image
+  x-api-slug: adminproducts7990943555images19489404942-json-put
+  description: Modify an existing product image.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/shopify/adminproducts7990943555images19489404942-json-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ship.station.api.gallery.streamdata.io

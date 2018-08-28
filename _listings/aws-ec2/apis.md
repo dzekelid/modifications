@@ -16,11 +16,22 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Modifications
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS EC2 API - Describe Reserved Instances Modifications
+  x-api-slug: actiondescribereservedinstancesmodifications-get
+  description: Describes the modifications made to your Reserved Instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-ec2/actiondescribereservedinstancesmodifications-get-openapi.md
 - name: AWS EC2 API - Modify Identity Id Format
   x-api-slug: actionmodifyidentityidformat-get
   description: |-
@@ -181,6 +192,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-ec2/actionmodifyvpcpeeringconnectionoptions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-ec2/actionmodifyvpcpeeringconnectionoptions-get-openapi.md
+- name: AWS EC2 API - Modify Hosts
+  x-api-slug: actionmodifyhosts-get
+  description: Modify the auto-placement setting of a Dedicated Host.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-ec2/actionmodifyhosts-get-openapi.md
 - name: AWS EC2 API - Modify Identity Id Format
   x-api-slug: actionmodifyidentityidformat-get
   description: |-

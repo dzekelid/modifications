@@ -11,11 +11,132 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quov
 x-kinRank: "7"
 x-alexaRank: "391003"
 tags: Modifications
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Quovo API v3 - Modify a connection
+  x-api-slug: connectionsconnection-id-put
+  description: Modifies an existing connection.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/connectionsconnection-id-put-openapi.md
+- name: Quovo API v3 - Modify a user
+  x-api-slug: usersuser-id-put
+  description: Modifies an existing User.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/usersuser-id-put-openapi.md
+- name: Quovo API v3 - Update an account
+  x-api-slug: accountsaccount-id-put
+  description: Modifies an existing account.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/accountsaccount-id-put-openapi.md
+- name: Quovo API v3 - Modify a connection
+  x-api-slug: connectionsconnection-id-put
+  description: Modifies an existing connection.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/connectionsconnection-id-put-openapi.md
+- name: Quovo API v3 - Modify a user
+  x-api-slug: usersuser-id-put
+  description: Modifies an existing User.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/usersuser-id-put-openapi.md
+- name: Quovo API v3 - Modify a user
+  x-api-slug: usersuser-id-put
+  description: Modifies an existing User.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/usersuser-id-put-openapi.md
+- name: Quovo API v3 - Modify a user
+  x-api-slug: usersuser-id-put
+  description: Modifies an existing User.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/usersuser-id-put-openapi.md
+- name: Quovo API v3 - Modify a user
+  x-api-slug: usersuser-id-put
+  description: Modifies an existing User.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/usersuser-id-put-openapi.md
+- name: Quovo API v3 - Modify a connection
+  x-api-slug: connectionsconnection-id-put
+  description: Modifies an existing connection.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/connectionsconnection-id-put-openapi.md
+- name: Quovo API v3 - Modify a connection
+  x-api-slug: connectionsconnection-id-put
+  description: Modifies an existing connection.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/connectionsconnection-id-put-openapi.md
+- name: Quovo API v3 - Modify a connection
+  x-api-slug: connectionsconnection-id-put
+  description: Modifies an existing connection.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28293-quovo.jpg
+  humanURL: http://quovo.com
+  baseURL: https://example.com//
+  tags: SaaS, Technology, Enterprise, Financial Services, Financial, Market Data,
+    Profiles, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/quovo/connectionsconnection-id-put-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.quovo.com/fintech-blog/feed/

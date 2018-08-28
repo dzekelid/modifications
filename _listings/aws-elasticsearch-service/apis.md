@@ -12,11 +12,26 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Modifications
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-elasticsearch-service/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Elasticsearch Service API - Update Elasticsearch Domain Config
+  x-api-slug: 20150101esdomaindomain-nameconfig-post
+  description: |-
+    Modifies the configuration of an Amazon ES domain, such as the instance type and the
+                    number of instances. Use the POST HTTP method with this
+                    operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonElasticsearchService.png
+  humanURL: https://aws.amazon.com/elasticsearch-service/
+  baseURL: :///
+  tags: Amazon Web Services, Search, Logging, Documents, Stack Network, API Service
+    Provider, API Service Provider, API Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-elasticsearch-service/20150101esdomaindomain-nameconfig-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.elasticache.api.gallery.streamdata.io

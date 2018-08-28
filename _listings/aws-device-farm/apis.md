@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Modifications
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-device-farm/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-device-farm/actionupdatedevicepool-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-device-farm/actionupdatedevicepool-get-openapi.md
+- name: AWS Device Farm API - Update Project
+  x-api-slug: actionupdateproject-get
+  description: Modifies the specified project name, given the project ARN and a new
+    name.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Mobile-Services_AWSDeviceFarm.png
+  humanURL: https://aws.amazon.com/device-farm/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/modifications/master/_listings/aws-device-farm/actionupdateproject-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.database.migration.service.api.gallery.streamdata.io
